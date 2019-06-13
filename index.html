@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,59 +8,63 @@
     <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap"> 
-    
-    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap">
+    <script src="https://code.jquery.com/jquery.js"></script>
+
     <title>Document</title>
 </head>
+
 <body>
-        <div class="crossfade">
-                <figure></figure>
-                <figure></figure>
-                <figure></figure>
-                <figure></figure>
-                <figure></figure>
-                <figure></figure>
-                <figure></figure>
-                <figure></figure>
-                <figure></figure>
-                <figure></figure>
-              </div>
-    <div class= "container">
+    <div class="crossfade">
+        <figure></figure>
+        <figure></figure>
+        <figure></figure>
+        <figure></figure>
+        <figure></figure>
+        <figure></figure>
+        <figure></figure>
+        <figure></figure>
+        <figure></figure>
+        <figure></figure>
+    </div>
+    <div class="container">
         <div class="jumbotron bg-primary text-center">
             <div class="container">
                 <div id="game-title">
                     <h2>The Greatest PS2 Games of All-Time!</h2>
                     <h4>GUESS THE NAME OF THE GAME!</h4>
                     <h4>Click any letter to begin...</h4>
+
                 </div>
             </div>
         </div>
-    </div>
-    <div class="container">
-        <div class="row">
+        <div class="container">
+            <div class="row">
                 <div class="col-lg-6 text-center border border-primary text-primary bg-dark">
-                        <h4>The topic of the game is PS2 Classics.</h4>
-                        <h5>Good luck trying to figure them out!</h5>
-                        <h3 id="word-guess">_ _ _ _ _ _ _ _ _ _</h3>
-                    </div>
-                    <div class="col-lg-6 border border-primary text-primary bg-dark">
-                           <h5>Wins: </h5><span id="wins"></span>
-                           <br>
-                            <br>
-                           <h5>Losses: </h5><span id="losses"></span>
-                        </div>
-                        
-        </div>
-        <div class="row justify-content-center ">
-            <div class= "col-lg-6 text-center border border-primary text-primary bg-dark">
-                    <h5>Wrong Guesses: </h5><span id="wrong-guesses"></span>
-                    <br>
-                    <h5>Guesses Left: </h5><span id="guesses-left">7</span>
-            </div>
-                
+                    <h4>The topic of the game is PS2 Classics.</h4>
+                    <h5>Good luck trying to figure them out!</h5>
+                    <h3 id="word-guess">_ _ _ _ _ _ _ _ _ _</h3>
                 </div>
+                <div class="col-lg-6 border border-primary text-primary bg-dark">
+                    <h5>Wins: </h5><span id="wins"></span>
+                    <br>
+                    <br>
+                    <h5>Losses: </h5><span id="losses"></span>
+                </div>
+
             </div>
-    
+            <div class="row justify-content-center ">
+                <div class="col-lg-6 text-center border border-primary text-primary bg-dark">
+                    <h5>Wrong Guesses: </h5><span id="wrongs"></span>
+                    <br>
+                    <h5>Guesses Left: </h5><span id="guesses-left">10</span>
+                </div>
+
+            </div>
+        </div>
+        <script src="./assets/javascript/game.js"></script>
+
+
 </body>
+
 </html>
